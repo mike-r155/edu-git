@@ -11,12 +11,14 @@ This is my learning history.
 
 ## What I learned
 2017/01/02
+
 1. Push to Github with Android Studio.
  - Sign up for Github.
  - Repository is [here](https://github.com/mike-r155/edu-1).
   Note:
     - Do **NOT** create repository before you push from "VCS > Import into Version Control > Share project on GitHub"
     - If you have already done it, use "VCS > Git... > Push Commits > origin : master"
+
 2. Create this file with git command.
 
 New git commands:
@@ -46,7 +48,7 @@ New git commands:
 - git status
 ```
 
- - Revert it
+ - Reset an added file
 ```
 - git reset HEAD ./history.md
 ```
