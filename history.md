@@ -11,10 +11,11 @@ This is my learning history.
 
 ## What I learned
 2017/01/03
+
 1. Complete "Dot Install" android tutorial.
  - Create button and textarea.
  - Add code to change the text using the button.
- Note:
+ - Note:
     - autocrlf setting makes line end character LF when you push to github.
     - Local changes dialog shows some files have different line end.
     - You can resolve the problem to pull files from github.
@@ -28,7 +29,7 @@ This is my learning history.
 1. Push to Github with Android Studio.
  - Sign up for Github.
  - Repository is [here](https://github.com/mike-r155/edu-1).
-  Note:
+ - Note:
     - Do **NOT** create repository before you push from "VCS > Import into Version Control > Share project on GitHub"
     - If you have already done it, use "VCS > Git... > Push Commits > origin : master"
 
