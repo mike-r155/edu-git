@@ -28,10 +28,11 @@ $ git checkout testbranch
 $ git log --oneline --decorate
 ```
 
- - Merge to master
+ - Merge to master and delete the branch
 ```bash
 $ git checkout master
 $ git merge testbranch
+$ git branch -d testbranch
 ```
 
 2017/01/02
