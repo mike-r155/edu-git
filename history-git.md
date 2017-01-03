@@ -23,6 +23,11 @@ $ git testbranch
 $ git checkout testbranch
 ```
 
+ - Check commit log with branch status
+```bash
+$ git log --oneline --decorate
+```
+
  - Merge to master
 ```bash
 $ git checkout master
