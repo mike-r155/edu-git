@@ -12,7 +12,7 @@ This is my history of learning about git.
 
 2017/01/04
 
-1. Create branch and marge it.
+1. Create branch and merge it.
 
 New git commands:
 
@@ -23,9 +23,10 @@ $ git testbranch
 $ git checkout testbranch
 ```
 
- - Marge to master
+ - Merge to master
 ```bash
-
+$ git checkout master
+$ git merge testbranch
 ```
 
 2017/01/02
