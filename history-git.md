@@ -14,19 +14,17 @@ This is my history of learning about git.
 1. Resolve conflict
  - New git commands:
     - Create branch and checkout it
-```bash
+    ```bash
 $ git checkout -b conf-branch
-```
-
+    ```
     - Amend last comment
-```bash
+    ```bash
 $ git commit --amend
-```
-
+    ```
     - Remove existing file from HEAD
-```bash
+    ```bash
 $ git rm ./conflict.txt
-```
+    ```
 
 2. Manage HEAD
  - New git commands:
