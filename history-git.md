@@ -11,39 +11,37 @@ This is my history of learning about git.
 ## What I learned
 
 2017/01/04
+
 1. Resolve conflict
  - New git commands:
     - Create branch and checkout it
     ```bash
-$ git checkout -b conf-branch
+    $ git checkout -b conf-branch
     ```
     - Amend last comment
     ```bash
-$ git commit --amend
+    $ git commit --amend
     ```
     - Remove existing file from HEAD
     ```bash
-$ git rm ./conflict.txt
+    $ git rm ./conflict.txt
     ```
 
 2. Manage HEAD
  - New git commands:
     - Change HEAD to previous
-```bash
-$ git reset --soft HEAD~
-```
-
+    ```bash
+    $ git reset --soft HEAD~
+    ```
     - Undo previous reset
-```bash
-$ git reset --soft ORIG_HEAD
-```
-
+    ```bash
+    $ git reset --soft ORIG_HEAD
+    ```
     - Show HEAD changing log and reset from it
-```bash
-$ git reflog
-$ git reset --soft HEAD@{5}
-```
-
+    ```bash
+    $ git reflog
+    $ git reset --soft HEAD@{5}
+    ```
  - Note:
     - HEAD is current commit
     - HEAD~(or HEAD^) is previous commit of HEAD
@@ -52,69 +50,64 @@ $ git reset --soft HEAD@{5}
 
 3. Fork of GitHub AndroidTraining repository
  - New git commands:
-
     - Clone from GitHub
-```bash
-$ git clone https://github.com/mike-r155/AndroidTraining.git
-```
+    ```bash
+    $ git clone https://github.com/mike-r155/AndroidTraining.git
+    ```
 
 2017/01/04
 
 1. Create branch and merge it.
  - New git commands:
-
     - Create branch
-```bash
-$ git branch
-$ git testbranch
-$ git checkout testbranch
-```
-
+    ```bash
+    $ git branch
+    $ git testbranch
+    $ git checkout testbranch
+    ```
     - Check commit log with branch status
-```bash
-$ git log --oneline --decorate
-```
+    ```bash
+    $ git log --oneline --decorate
+    ```
 
     - Merge to master and delete the branch
-```bash
-$ git checkout master
-$ git merge testbranch
-$ git branch -d testbranch
-```
+    ```bash
+    $ git checkout master
+    $ git merge testbranch
+    $ git branch -d testbranch
+    ```
 
 2017/01/02
 
 1. Create this file with git command.
  - New git commands:
-
     - Initial Setup
-```bash
-$ git config --global user.name "mike-r155"
-$ git config --global user.email mike_everything@hotmail.com
-$ git config --list
-$ git config --global core.autocrlf true
-```
-
+    ```bash
+    $ git config --global user.name "mike-r155"
+    $ git config --global user.email mike_everything@hotmail.com
+    $ git config --list
+    $ git config --global core.autocrlf true
+    ```
     - Add new file to new repository
-```bash
-$ git init
-$ git add ./hisotry.md
-$ git commit -m "First commit." -m "2 line commit on command line."
-$ git remote add origin https://github.com/mike-r155/edu-git.git
-$ git push -u origin master
-```
+    ```bash
+    $ git init
+    $ git add ./hisotry.md
+    $ git commit -m "First commit." -m "2 line commit on command line."
+    $ git remote add origin https://github.com/mike-r155/edu-git.git
+    $ git push -u origin master
+    ```
 
     - Add changed file and check it
-```bash
-$ git diff
-$ git add -A
-$ git status
-```
+    ```bash
+    $ git diff
+    $ git add -A
+    $ git status
+    ```
 
     - Reset an added file
-```bash
-$ git reset HEAD ./history.md
-```
+    ```bash
+    $ git reset HEAD ./history.md
+    ```
 
 2016/12/29
 
