@@ -18,10 +18,12 @@ This is my history of learning about git.
     ```bash
     $ git checkout -b conf-branch
     ```
+
     - Amend last comment
     ```bash
     $ git commit --amend
     ```
+
     - Remove existing file from HEAD
     ```bash
     $ git rm ./conflict.txt
@@ -33,15 +35,18 @@ This is my history of learning about git.
     ```bash
     $ git reset --soft HEAD~
     ```
+
     - Undo previous reset
     ```bash
     $ git reset --soft ORIG_HEAD
     ```
+
     - Show HEAD changing log and reset from it
     ```bash
     $ git reflog
     $ git reset --soft HEAD@{5}
     ```
+
  - Note:
     - HEAD is current commit
     - HEAD~(or HEAD^) is previous commit of HEAD
@@ -65,6 +70,7 @@ This is my history of learning about git.
     $ git testbranch
     $ git checkout testbranch
     ```
+
     - Check commit log with branch status
     ```bash
     $ git log --oneline --decorate
@@ -88,6 +94,7 @@ This is my history of learning about git.
     $ git config --list
     $ git config --global core.autocrlf true
     ```
+
     - Add new file to new repository
     ```bash
     $ git init
