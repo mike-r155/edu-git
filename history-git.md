@@ -12,6 +12,51 @@ This is my history of learning about git.
 
 2017/01/04
 
+1. Resolve conflict
+New git commands:
+ - Create branch and checkout it
+```bash
+$ git checkout -b conf-branch
+```
+ - Amend last comment
+```bash
+$ git commit --amend
+```
+ - Remove existing file from HEAD
+```bash
+$ git rm ./conflict.txt
+```
+
+2. Manage HEAD
+New git commands:
+ - Change HEAD to previous
+```bash
+$ git reset --soft HEAD~
+```
+ - Undo previous reset
+```bash
+$ git reset --soft ORIG_HEAD
+```
+ - Show HEAD changing log and reset from it
+```bash
+$ git reflog
+$ git reset --soft HEAD@{5}
+```
+ - Note:
+   - HEAD is current commit
+   - HEAD~(or HEAD^) is previous commit of HEAD
+   - ORIG_HEAD is previous HEAD before reset
+   - Use reflog if you want to reset to future HEAD point
+
+3. Fork of GitHub AndroidTraining repository
+New git commands:
+ - Clone from GitHub
+```bash
+$ git clone https://github.com/mike-r155/AndroidTraining.git
+```
+
+2017/01/04
+
 1. Create branch and merge it.
 
 New git commands:
@@ -77,4 +122,5 @@ $ git reset HEAD ./history.md
 ## Git commands
 - [x] How to branch
 - [ ] How to revert
-- [ ] How to change comments that I push
+- [x] How to change comments that I push
+- [ ] How to stash
