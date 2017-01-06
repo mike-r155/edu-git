@@ -10,6 +10,28 @@ This is my history of learning about git.
 
 ## What I learned
 
+2017/01/06
+
+1. How to use local ssh server
+ - New git commands:
+    - Create empty repository for server
+    ```bash
+    $ mkdir project.git
+    $ cd project.git
+    $ git --bare init
+    ```
+
+    - Show origin URL
+    ```bash
+    $ git remote -v
+    ```
+
+    - Change remote repository URL
+    ```bash
+    $ git remote set-url origin xxx@192.168.1.3:/home/xxx/project.git
+    $ git push -u origin mater
+    ```
+
 2017/01/04
 
 1. Resolve conflict
