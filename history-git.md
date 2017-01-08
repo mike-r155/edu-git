@@ -12,8 +12,31 @@ This is my history of learning about git.
 
 2017/01/09
 
-1. How to send pull-request
- 
+1. How to send pull-request from cloned repository
+ - Clone repository and create a branch for updating.
+    ```bash
+    $ mkdir update-pullreq
+    $ cd update-pullreq
+    $ git clone https://github.com/mike-r155/edu-git.git
+    ```
+
+ - Checkout it and update.
+    ```bash
+    $ git checkout -b update-pullreq
+    ... update ...
+    $ git add -A
+    $ git commit -m "[update] add pullreq"
+    ```
+
+ - Push the branch to GitHub.
+    ```bash
+    $ git push origin update-pullreq
+    ```
+
+ - Access to GitHub and click "Compare & pull request" button.
+ - Write some comment and click "Send pull request" button.
+
+2. How to merge from pull-request
 
 	
 2017/01/06
