@@ -10,6 +10,54 @@ This is my history of learning about git.
 
 ## What I learned
 
+2017/01/09
+
+1. How to send pull-request from cloned repository
+ - Clone repository and create a branch for updating.
+    ```bash
+    $ mkdir update-pullreq
+    $ cd update-pullreq
+    $ git clone https://github.com/mike-r155/edu-git.git
+    ```
+
+ - Checkout it and update.
+    ```bash
+    $ git checkout -b update-pullreq
+    ... update ...
+    $ git add -A
+    $ git commit -m "[update] add pullreq"
+    ```
+
+ - Push the branch to GitHub.
+    ```bash
+    $ git push origin update-pullreq
+    ```
+
+ - Access to GitHub and click "Compare & pull request" button.
+ - Write some comment and click "Send pull request" button.
+
+2. How to merge from pull-request
+ - Get the latest repository. Then, check the new branch update-pulllreq.
+    ```bash
+    $ cd ../../edu-git
+    $ git fetch
+    $ git branch -a
+    ... update ...
+    ```
+
+ - New git commands:
+    - Get the repository from remote
+    ```bash
+    $ git fetch
+    ```
+
+    - Show all branches
+    ```bash
+    $ git branch -a
+    ```
+
+
+
 2017/01/06
 
 1. How to use local ssh server
@@ -147,5 +195,6 @@ This is my history of learning about git.
 ## Git commands
 - [x] How to branch
 - [x] How to change comments that I push
+- [ ] How to send pull-request
 - [ ] How to revert
 - [ ] How to stash
