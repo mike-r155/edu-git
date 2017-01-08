@@ -10,6 +10,12 @@ This is my history of learning about git.
 
 ## What I learned
 
+2017/01/09
+
+1. How to send pull-request
+ 
+
+	
 2017/01/06
 
 1. How to use local ssh server
@@ -147,5 +153,6 @@ This is my history of learning about git.
 ## Git commands
 - [x] How to branch
 - [x] How to change comments that I push
+- [ ] How to send pull-request
 - [ ] How to revert
 - [ ] How to stash
