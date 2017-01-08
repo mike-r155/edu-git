@@ -43,7 +43,12 @@ This is my history of learning about git.
     $ git fetch
     $ git branch -a
     ... update ...
+    $ git add -A
+    $ git commit -m "[update]fech and merge with update-pullreq branch"
+    $ git push
     ```
+
+ - Access to GitHub and click "Merge pull request" button.
 
  - New git commands:
     - Get the repository from remote
@@ -55,7 +60,6 @@ This is my history of learning about git.
     ```bash
     $ git branch -a
     ```
-
 
 
 2017/01/06
