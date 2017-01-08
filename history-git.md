@@ -37,8 +37,27 @@ This is my history of learning about git.
  - Write some comment and click "Send pull request" button.
 
 2. How to merge from pull-request
+ - Get the latest repository. Then, check the new branch update-pulllreq.
+    ```bash
+    $ cd ../../edu-git
+    $ git fetch
+    $ git branch -a
+    ... update ...
+    ```
 
-	
+ - New git commands:
+    - Get the repository from remote
+    ```bash
+    $ git fetch
+    ```
+
+    - Show all branches
+    ```bash
+    $ git branch -a
+    ```
+
+
+
 2017/01/06
 
 1. How to use local ssh server
